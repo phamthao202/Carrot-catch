@@ -147,8 +147,8 @@ let update = function () {
     console.log("score", score);
   }
   //monter move
-  // monsterX += 2;
-  // monsterY += 1;
+  monsterX += 2;
+  monsterY += 1;
   if (monsterX < 0) {
     monsterX = canvas.width;
   }
